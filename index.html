@@ -11,22 +11,21 @@
 
 <body>
 
-
     <header class="header">
-        <h1>Hi I'm Sienna Li</h1> 
+        <h1>Sienna Li</h1> 
             <nav>
               <ul>
                 <li>
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
               </ul>
           </nav>
@@ -36,36 +35,91 @@
       <section class="main">
         <section>
              <div id="home" class="home">
-                <img src="../My-Portfolio/assets/Images/laptop.jpeg" alt="laptop" style="width:100%" >
+                <img src="./assets/Images/laptop.jpeg" alt="laptop" style="width:100%">
                 <h1>A Coder & Desinger</h1>
-                <p>I'm passionate about creating clean, unique, elegant and functional websites. The designs you love. Designs that work. Read the juicy bits about me, or find out why you should hire me.</p>
+                <div class="intro">
+                    <img src="./assets/Images/headshot.png" style="width:120px">
+                <p>"I'm passionate about creating clean, unique, elegant and functional websites. The designs you love. Designs that work. Read the juicy bits about me, or find out why you should hire me."</p>
+                </div>
             </div>
         </section>
 
         <section class="content">
             <div id="about" class="about"> 
                 <h2>About Me</h2>
+                <div class="right">
               <p>
                   Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.
                </p>
-               <img>
+
+            </div>
              </div>
         </section>
 
         <section class="content">
             <div id="work" class="work">
                 <h2>My Work</h2>
-                <p>
-                    Exceptionally creative and dependable Entry Level Web Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.
-                 </p>
+                <div class="right">
+
+                    <section class="row justify-center">
+                        <div class="card-column">
+                          <figure class="card code-card">
+                            <h3 class="card-header">Work 1</h3>
+                            <div class="card-body">
+                              <p>This is my work 1.</p>
+                            </div>
+                            <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                          </figure>
+                        </div>
+                        <div class="card-column">
+                          <figure class="card code-card">
+                            <h3 class="card-header">Work 2</h3>
+                            <div class="card-body">
+                              <p>This is my work 2.</p>
+                            </div>
+                  
+                          </figure>
+                        </div>
+                  
+                        <div class="card-column">
+                          <figure class="card code-card">
+                            <h3 class="card-header">Work 3</h3>
+                            <div class="card-body">
+                              <p>This is my work 3.</p>
+                            </div>
+                  
+                          </figure>
+                        </div>
+                        <div class="card-column">
+                          <figure class="card code-card">
+                            <h3 class="card-header">Work 4</h3>
+                            <div class="card-body">
+                              <p>This is my work 4.</p>
+                            </div>
+                  
+                          </figure>
+                        </div>
+                        <div class="card-column">
+                          <figure class="card code-card">
+                            <h3 class="card-header">Work 5</h3>
+                            <div class="card-body">
+                              <p>This is my work 5.</p>
+                            </div>
+                  
+                          </figure>
+                        </div>
+                    </section>
+                  
+
+                </div>
             </div>
         </section>
 
-        <section class="content">
+        <section class="content"> 
             <div id="contact-me" class="contact-me">
                 <h2>Contact Me</h2>
 
-                <div class="inputinfo">
+                <div class="right">
                 <form action="action_page.php">
               
                   <label for="name">Your name</label>
@@ -90,9 +144,9 @@
 
     <footer>
         <div class="footer">
-        <h3>
+        <h4>
             Made with ❤️️ by Sienna Li © 2022 github.com/siennameow
-        </h3>
+        </h4>
         </div>
     </footer>
 
