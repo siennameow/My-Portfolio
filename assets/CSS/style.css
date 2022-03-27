@@ -188,7 +188,7 @@ body {
   }
 
 
-  .picture h3 {
+.picture h3 {
     position:absolute;
     padding:10px;
     bottom: 15px;
@@ -225,18 +225,22 @@ body {
     .right {
         border-left: 6px solid var(--pink);
     }
-    .code-card {
-        color: var(--pink);
-    }
-    .code-card .card-header {
-        color: var(--pink);
-    }
-    .code-card:hover, .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px var(--pink), 0 0 15px var(--pink);
-    }
+
     input[type=submit] {
         background-color: var(--pink);
     }
+
+    .worklist {
+        flex-direction: column;
+    }
+    .picture {
+        width: 100%;
+    }
+    .picture:nth-of-type(1) {
+        min-height: 300px;
+        object-fit: fill;
+    }
+
 }
 
 @media screen and (min-width: 992px) { 
