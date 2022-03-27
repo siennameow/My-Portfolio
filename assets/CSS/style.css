@@ -9,6 +9,7 @@
     --outer-space: #33393f;
     --white: white;
     --orange: #e09200;
+    --pink: #bd33a4;
 }
 
 .header {
@@ -189,8 +190,37 @@ body {
 .code-card pre:active {
     user-select: all;
 }
+
+
+@media screen and (max-width: 768px) { 
+    .header {
+        background-color: var(--pink);
+    }
+    .right {
+        border-left: 6px solid var(--pink);
+    }
+    .code-card {
+        color: var(--pink);
+    }
+    .code-card .card-header {
+        color: var(--pink);
+    }
+    .code-card:hover, .code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px var(--pink), 0 0 15px var(--pink);
+    }
+    input[type=submit] {
+        background-color: var(--pink);
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+}
   
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .card-column {
       flex: 0 0 50%;
       max-width: 50%;
@@ -200,11 +230,3 @@ body {
       flex-grow: 1;
     }
 }
-  
-@media screen and (min-width: 992px) {  
-    .card-column {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-    }
-}
-  
