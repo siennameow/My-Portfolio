@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+/*create CSS varables at the root*/
+:root {
+    --outer-space: #33393f;
+    --white: white;
+    --orange: #e09200;
+}
 
 .header {
     position:sticky;
@@ -12,8 +18,8 @@
     width:100%;
     padding: 20px;
     font-family:'Times New Roman', Times, serif;
-    background-color: #e09200;
-    color: white;
+    background-color: var(--orange);
+    color: var(--white);
 }
 
 .header h1 {
@@ -39,14 +45,14 @@
 }
 
 a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
 .home {
     position:relative;
     text-align: center;
-    color:white;
+    color:var(--white);
 }
 
 .home h1 {
@@ -79,7 +85,7 @@ a {
     float:right;
     width:80%;
     padding-left:20px;
-    border-left:6px solid #e09200;
+    border-left:6px solid var(--orange);
     padding-top:100px;
 }
 
@@ -100,11 +106,11 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
-  }
+}
 
 input[type=submit] {
-    background-color: #e09200;
-    color: white;
+    background-color: var(--orange);
+    color: var(--white);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -125,102 +131,80 @@ input[type=submit] {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     padding-top: 30px;
-  }
+}
   
-  .justify-center {
+.justify-center {
     justify-content: center;
-  }
-  
-  :root {
-    --outer-space: #33393f;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #e09200;
-  }
-  
+}
+
 body {
-    /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
       Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  
-    /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
     line-height: 1.5;
-    color: var(--gin);
+    color: var(--white);
     background-color: var(--outer-space);
   }
 
-  /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-  .card-column {
+.card-column {
     flex: 1 0 100%;
     padding: 1.5rem;
-    /* when the screen resizes, make it so our columns don't jump in size */
     transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
   }
   
-  /* make each code card a flexbox column to align and justify content within it */
-  .code-card {
+.code-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100%;
     padding: 2rem;
-    color: var(--heliotrope);
-  
-    /* outline is like border, but on the outside of the box instead of inside */
-    outline: 2px dashed var(--gin);
+    color: var(--orange);
+    outline: 2px dashed var(--white);
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
-  }
+}
   
-  .code-card .card-header {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+.code-card .card-header {
     position: relative;
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
     background-color: var(--outer-space);
-    color: var(--heliotrope);
-    border: 2px solid var(--gin);
+    color: var(--orange);
+    border: 2px solid var(--white);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
-  }
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px var(--orange), 0 0 15px var(--orange);
+}
   
-  /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
-  .code-card:hover,
-  .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-  }
-  
-  /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
-  .code-card .code-block {
+
+.code-card .code-block {
     flex-grow: 1;
-  }
+}
   
   
-  /* on <pre> click, select all contents so the code is highlighted */
-  .code-card pre:active {
+.code-card pre:active {
     user-select: all;
-  }
+}
   
-  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-  @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
+ @media screen and (min-width: 768px) {
     .card-column {
       flex: 0 0 50%;
       max-width: 50%;
     }
-  
-    /* select the last child to grow to full width if it has space to grow */
+    
     .card-column:last-child {
       flex-grow: 1;
     }
-  }
+}
   
-  /* media query for larger screens */
-  @media screen and (min-width: 992px) {  
+@media screen and (min-width: 992px) {  
     .card-column {
       flex: 0 0 33.333%;
       max-width: 33.333%;
     }
-  }
+}
   
