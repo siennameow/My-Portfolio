@@ -47,7 +47,9 @@
 
 /*add nav hover*/
 nav a:hover {
-    color: var(--pink);
+    font-size:105%;
+    border-bottom: 2px solid var(--white);
+    transform: scale(0,1);
 }
 
 a {
@@ -185,49 +187,34 @@ body {
     background-color: var(--outer-space);
   }
 
-.card-column {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
-  }
-  
-.code-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: var(--orange);
-    outline: 2px dashed var(--white);
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-}
-  
-.code-card .card-header {
-    position: relative;
-    margin: -4rem 0 1.5rem 0;
-    padding: 0.5rem 1rem;
-    background-color: var(--outer-space);
-    color: var(--orange);
-    border: 2px solid var(--white);
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
+
+  .picture h3 {
+    position:absolute;
+    padding:10px;
+    bottom: 15px;
+    font-size: 20px;
+    background-color:rgba(224,146,0,0.5);
 }
 
-.code-card:hover,
-.code-card:hover .card-header {
+.picture:hover {
     box-shadow: inset 0px 0px 8px var(--orange), 0 0 15px var(--orange);
+    transform: scale(1.05);
 }
-  
 
-.code-card .code-block {
-    flex-grow: 1;
+.worklist {
+    display:flex;
+    flex-wrap: wrap;
 }
-  
-  
-.code-card pre:active {
-    user-select: all;
+
+.picture {
+    flex-grow: 1;
+    width: 50%;
+    position:relative;
+    object-fit: contain;
+}
+
+.picture:nth-of-type(1) {
+    width: 100%;
 }
 
 
