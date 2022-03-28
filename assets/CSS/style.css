@@ -19,13 +19,14 @@
     width:100%;
     padding: 20px;
     font-family:'Times New Roman', Times, serif;
-    background-color: var(--orange);
+    background-color: rgba(255,166,0,0.8);
     color: var(--white);
 }
 
 .header h1 {
     display: inline-block;
     font-size: 30px;
+    margin-top: -10px;
 }
 
 .header nav {
@@ -140,6 +141,9 @@ body {
     object-fit: contain;
     padding:5px;
 }
+.picture a img {
+    border-radius: 2%;
+}
 
 .picture:nth-of-type(1) {
     width: 100%;
@@ -195,7 +199,7 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) { 
     .header {
-        background-color: var(--pink);
+        background-color: rgba(166,0,255,0.8);
     }
     .right {
         border-left: 6px solid var(--pink);
