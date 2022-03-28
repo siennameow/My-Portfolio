@@ -102,6 +102,7 @@ a {
     width:auto;
     overflow:hidden;
     padding-top:100px;
+    font-size:20px;
 }
 
 
@@ -144,9 +145,6 @@ body {
     width: 100%;
 }
 
-
-
-
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;
@@ -165,8 +163,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-
+}
 
 .footer {
     padding: 30px;
@@ -175,7 +172,6 @@ input[type=submit] {
     text-align: center;
 }
 
-/*add contact info to footer*/
 .footer ul {
     display:flex;
     justify-content: center;
@@ -230,6 +226,10 @@ input[type=submit] {
     .picture:hover {
         box-shadow: inset 0px 0px 8px var(--pink), 0 0 15px var(--pink);
         transform: scale(1.05);
+    }
+
+    .picture h3 {
+        background-color:rgba(171,61,255,0.5);
     }
 
     .footer ul li {
