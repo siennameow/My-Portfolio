@@ -169,6 +169,16 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.checkbox:checked + label {
+    color: var(--orange);
+}
+
+.checkbox:checked + label::after {
+    margin-left: 10px;
+    font-size: 90%;
+    content: "(Thanks!)";
+}
+
 .footer {
     padding: 30px;
     clear: both;
