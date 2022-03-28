@@ -46,7 +46,6 @@
     margin-left: 25px;
 }
 
-/*add nav hover*/
 nav a:hover {
     font-size:105%;
     border-bottom: 2px solid var(--white);
@@ -160,7 +159,15 @@ input[type=text], select, textarea {
     resize: vertical 
 }
 
-input[type=submit] {
+button:hover {
+    font-size: 120%;
+}
+
+button:active {
+    box-shadow: 0 0 10px var(--orange);
+}
+
+.submit {
     background-color: var(--orange);
     color: var(--white);
     padding: 12px 20px;
@@ -215,7 +222,7 @@ input[type=submit] {
         border-left: 6px solid var(--pink);
     }
 
-    input[type=submit] {
+    input[type=submit], .submit, .footer ul li  {
         background-color: var(--pink);
     }
 
@@ -246,7 +253,11 @@ input[type=submit] {
         background-color:rgba(171,61,255,0.5);
     }
 
-    .footer ul li {
-        background-color: var(--pink);
+    button:active {
+        box-shadow: var(--pink);
+    }
+    
+    .checkbox:checked + label {
+        color: var(--pink);
     }
 }
