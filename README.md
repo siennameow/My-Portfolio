@@ -16,7 +16,7 @@ Please Enjoy! ❤️
 ## Table of Contents 📖
 
 * [Webpage Preview](#webpage-preview)
-* [Sections](#sections-📚)
+* [Sections 📚](#sections-)
 * [Code-Snippet](#code-snippet)
 * [Features](#features-📋)
 * [Usage](#usage-💡)
