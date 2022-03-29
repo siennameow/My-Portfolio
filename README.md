@@ -15,14 +15,14 @@ Please Enjoy! ❤️
 
 ## Table of Contents 📖
 
-* [Webpage Preview](#webpage-preview)
+* [Webpage Preview ⭐](#webpage-preview-)
 * [Sections 📚](#sections-)
-* [Code-Snippet](#code-snippet)
-* [Features](#features-📋)
+* [Code-Snippet 💻](#code-snippet-)
+* [Features 📋](#features-)
 * [Usage](#usage-💡)
-* [Technologies](#technologies-🛠️)
-* [Authors](#authors-👩)
-* [Credits](#credits-😃)
+* [Technologies 🛠️](#technologies-)
+* [Authors 👩](#authors-)
+* [Credits 🙌](#credits-)
 
 ## Webpage Preview ⭐
 
@@ -136,7 +136,7 @@ If you want to use the template to create your own portfolio, you can :
 - [Link to LinkedIn](https://www.linkedin.com/in/hexuanli/)
 
 
-## Credits 😃
+## Credits 🙌
 
 Thanks to the following people who helped me in this project:
 - Jerome Chenette
