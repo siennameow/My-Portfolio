@@ -83,17 +83,18 @@ CSS
 
 
 ```css
-        button:active {
-    box-shadow: 0 0 10px var(--orange);
+
+.picture h3 {
+    position:absolute;
+    padding:10px;
+    bottom: 15px;
+    font-size: 20px;
+    background-color:rgba(224,146,0,0.5);
 }
 
-.submit {
-    background-color: var(--orange);
-    color: var(--white);
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.picture:hover {
+    box-shadow: inset 0px 0px 8px var(--orange), 0 0 15px var(--orange);
+    transform: scale(1.05);
 }
 
 
