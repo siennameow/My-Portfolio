@@ -20,20 +20,19 @@ Please Enjoy! ❤️
 * [Code-Snippet 💻](#code-snippet-)
 * [Features 📋](#features-)
 * [Usage 💡](#usage-)
-* [Technologies 🛠️](#technologies-)
+* [Technologies 🔧](#technologies-)
 * [Authors 👩](#authors-)
 * [Credits 🙌](#credits-)
 
 ## Webpage Preview ⭐
 
-Desktop Version\
 
+Desktop Version
 
 ![Sienna Li Portfolio (1)](https://user-images.githubusercontent.com/101283174/160543539-4a4a2d9a-cfab-40b8-b820-0097fb69d307.gif)
 
 
-Mobile Version\
-
+Mobile Version  
 
 ![Sienna Li Portfolio (2)](https://user-images.githubusercontent.com/101283174/160543837-06275aea-a078-4c13-b3eb-5df409b04a52.gif)
 
@@ -118,7 +117,7 @@ If you want to use the template to create your own portfolio, you can :
     - Push your code to the master branch.
     - Deploy your portfolio page.
 
-## Technologies 🛠️
+## Technologies 🔧
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
