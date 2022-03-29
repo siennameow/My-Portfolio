@@ -63,6 +63,8 @@ Contact Page
 
 ## Code-Snippet
 
+HTML
+
 ```html
         <section class="main">
         <section>
@@ -76,6 +78,9 @@ Contact Page
             </div>
         </section>
 ```
+
+CSS
+
 
 ```css
         button:active {
