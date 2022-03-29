@@ -19,7 +19,7 @@ Please Enjoy! ❤️
 * [Sections 📚](#sections-)
 * [Code-Snippet 💻](#code-snippet-)
 * [Features 📋](#features-)
-* [Usage](#usage-💡)
+* [Usage 💡](#usage-)
 * [Technologies 🛠️](#technologies-)
 * [Authors 👩](#authors-)
 * [Credits 🙌](#credits-)
