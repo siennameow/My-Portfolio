@@ -1,37 +1,102 @@
-# My-Portfolio
+# My Portfolio🔥
+
+Hi, I’m Sienna Li! 👋
+
+I'm a current student at UC Berkeley Extension School. I am an avid Web Develepment learner as I am fascinated by all the things web can do. I find myself regularly trying to learn new algorithms and techniques that I can implement in my projects. I also enjoy doing side projects from time to time to apply what I have learned into something useful. HTML was the language I started programming with, but soon after, I've been using CSS a lot more.Recently, I've been trying to learn new languages including JavaScript.
 
 ## Description 📝 
 
-Using CSS day-to-day? Whether you’re a super savvy web developer or just someone who wants to learn web development, this CSS snippet Cheatsheet should help you out. To keep up with modern design requirements, the HTML and CSS specifications are updated every few years. It can be hard for even the most seasoned web developers to memorize each element and remember the latest standards. Cheat sheets have become a very popular way for developers to manage this information. 
+https://siennameow.github.io/My-Portpolio/
 
-To assist in your web design efforts, this CSS Snippet Cheatsheet is hosted on website and includes a list of 6 CSS snippet that are commonly used in web development. The website is designed to work with different screen sizes as you need. 
+This portfolio website is built up with core skills including: flexbox, media queries, pseudo classes and CSS variables. It presentes with name, photo, projects, and contact information about me.It is designed to work with different screen sizes as you need.
 
 Please Enjoy! :heart;
 
 
 ## Table of Contents 📖
 
-* [Usage](#usage)
-* [Webpage Looks](#webpage-looks)
-* [Technologies](#technologies)
-* [Credits](#credits)
+* [Webpage Preview](#webpage-preview-⭐)
+* [Sections](#sections-📚)
+* [Code-Snippet](#code-snippet)
+* [Features](#features-📋)
+* [Usage](#usage-💡)
+* [Technologies](#technologies-🛠️)
+* [Authors](#authors-👩)
+* [Credits](#credits-😃)
 
-## Usage
+## Webpage Preview ⭐
 
-The link of the webpage is: https://wau00.github.io/mini-project-2/
-- PC users: Use <kbd>control</kbd> + <kbd>C</kbd>  and <kbd>control</kbd> + <kbd>V</kbd> to copy and paste the snippet code you want to select.
-- Mac users: Use <kbd>command</kbd> + <kbd>C</kbd>  and <kbd>command</kbd> + <kbd>V</kbd> to copy and paste the snippet code you want to select.
+Home Page
 
-## Webpage Looks
+About Page
 
-<img width="1170" alt="Screen Shot 2022-03-26 at 11 30 38 AM" src="https://user-images.githubusercontent.com/101283174/160252604-183f5bea-8756-4b24-b21a-dc4919950ebf.png">
+Project Page
 
-## Technologies
+Contact Page
 
-- HTML
-- CSS 
+## Sections 📚
 
-## Credits
 
-- Walter A. Underwood
-- Sienna Li
+✔️ About\
+✔️ Image Picture\
+✔️ Self Introduction\
+✔️ Projects and Works\
+✔️ Github Profile\
+✔️ Information Generate Form\
+✔️ Contact Info
+
+
+## Features 📋
+
+⚡️ Fully Responsive\
+⚡️ Valid HTML & CSS\
+⚡️ Easy to modify
+
+## Code-Snippet
+
+
+
+
+
+## Usage 💡
+
+
+The link of the webpage is: https://siennameow.github.io/My-Portpolio/
+
+
+If you want to use the template to create your own portfolio, you can :
+
+
+- Step 1
+    - create github repository for your portfolio.
+- Step 2
+    - Option 1: 🍴 Fork this repo!
+    - Option 2: 👯 Clone this repo to your local machine.
+- Step 3
+    - Start building your code in your own folder 🔨🔨🔨
+    - Modify the content of index.html and style.css
+    - Add or remove images from assets/img/ directory as per your requirement.
+- Step 4
+    - Push the generated code to the master branch.
+    - Deploy your portfolio page.
+
+## Technologies 🛠️
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Authors 👩
+
+* **Sienna Li** 
+
+- [Link to Portfolio Site](#)
+- [Link to Github](https://github.com/siennameow)
+- [Link to LinkedIn](https://www.linkedin.com/in/hexuanli/)
+
+
+## Credits 😃
+
+Thanks to the following people who helped me in this project:
+- Jerome Chenette
+- Manuel Nunes
+- Vince Lee
