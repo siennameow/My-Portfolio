@@ -28,7 +28,7 @@ Please Enjoy! ❤️
 
 Home Page
 <img height="300" alt="Home" src="https://user-images.githubusercontent.com/101283174/160531257-79299328-6390-4a1e-9d03-8213a7aeadb5.png">
-<img height="300" alt="Home0" src="https://user-images.githubusercontent.com/101283174/160531294-add76c3d-55c2-430b-a528-c928858bb789.png">
+<img width="300" alt="Screen Shot 2022-03-28 at 10 11 23 PM" src="https://user-images.githubusercontent.com/101283174/160537869-68b45825-833f-4aad-9eca-1a7f5dc0f556.png">
 
 About Page
 <img height="100" width="300" alt="about" src="https://user-images.githubusercontent.com/101283174/160531338-c4050776-77e8-428e-b633-4b0eca8ed8e8.png">
