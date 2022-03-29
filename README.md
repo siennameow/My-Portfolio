@@ -27,20 +27,20 @@ Please Enjoy! ❤️
 ## Webpage Preview ⭐
 
 Home Page
-<img width="300" alt="Home" src="https://user-images.githubusercontent.com/101283174/160531257-79299328-6390-4a1e-9d03-8213a7aeadb5.png">
-<img width="300" alt="Home0" src="https://user-images.githubusercontent.com/101283174/160531294-add76c3d-55c2-430b-a528-c928858bb789.png">
+<img height="300" alt="Home" src="https://user-images.githubusercontent.com/101283174/160531257-79299328-6390-4a1e-9d03-8213a7aeadb5.png">
+<img height="300" alt="Home0" src="https://user-images.githubusercontent.com/101283174/160531294-add76c3d-55c2-430b-a528-c928858bb789.png">
 
 About Page
-<img width="300" alt="about" src="https://user-images.githubusercontent.com/101283174/160531338-c4050776-77e8-428e-b633-4b0eca8ed8e8.png">
-<img width="300" alt="about0" src="https://user-images.githubusercontent.com/101283174/160531362-3fb400a7-981a-48cd-a06a-83a020e5a642.png">
+<img height="300" alt="about" src="https://user-images.githubusercontent.com/101283174/160531338-c4050776-77e8-428e-b633-4b0eca8ed8e8.png">
+<img height="300" alt="about0" src="https://user-images.githubusercontent.com/101283174/160531362-3fb400a7-981a-48cd-a06a-83a020e5a642.png">
 
 Project Page
-<img width="300" alt="project" src="https://user-images.githubusercontent.com/101283174/160531401-e32c77a1-05e4-4bdd-a4e3-e4e9e1c965c8.png">
-<img width="300" alt="project0" src="https://user-images.githubusercontent.com/101283174/160531429-bb47ca18-784d-44d0-a075-5d4a4f2d5c44.png">
+<img height="300" alt="project" src="https://user-images.githubusercontent.com/101283174/160531401-e32c77a1-05e4-4bdd-a4e3-e4e9e1c965c8.png">
+<img height="300" alt="project0" src="https://user-images.githubusercontent.com/101283174/160531429-bb47ca18-784d-44d0-a075-5d4a4f2d5c44.png">
 
 Contact Page
-<img width="300" alt="contact" src="https://user-images.githubusercontent.com/101283174/160531462-0b2d6971-35bd-4eb7-8f04-995dacc77c74.png">
-<img width="300" alt="contact0" src="https://user-images.githubusercontent.com/101283174/160531467-0516fb40-dc83-4a36-81fb-25f34cf3fc41.png">
+<img height="300" alt="contact" src="https://user-images.githubusercontent.com/101283174/160531462-0b2d6971-35bd-4eb7-8f04-995dacc77c74.png">
+<img height="300" alt="contact0" src="https://user-images.githubusercontent.com/101283174/160531467-0516fb40-dc83-4a36-81fb-25f34cf3fc41.png">
 
 
 ## Sections 📚
