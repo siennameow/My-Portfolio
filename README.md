@@ -31,7 +31,7 @@ Home Page
 <img height="300" alt="Home0" src="https://user-images.githubusercontent.com/101283174/160531294-add76c3d-55c2-430b-a528-c928858bb789.png">
 
 About Page
-<img height="300" alt="about" src="https://user-images.githubusercontent.com/101283174/160531338-c4050776-77e8-428e-b633-4b0eca8ed8e8.png">
+<img height="300" width="500" alt="about" src="https://user-images.githubusercontent.com/101283174/160531338-c4050776-77e8-428e-b633-4b0eca8ed8e8.png">
 <img height="300" alt="about0" src="https://user-images.githubusercontent.com/101283174/160531362-3fb400a7-981a-48cd-a06a-83a020e5a642.png">
 
 Project Page
