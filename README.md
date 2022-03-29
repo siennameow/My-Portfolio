@@ -61,7 +61,7 @@ Contact Page
 ⚡️ Valid HTML & CSS\
 ⚡️ Easy to modify
 
-## Code-Snippet
+## Code-Snippet 💻
 
 HTML
 
@@ -119,7 +119,7 @@ If you want to use the template to create your own portfolio, you can :
     - Modify the content of index.html and style.css
     - Add or remove images from assets/img/ directory as per your requirement.
 - Step 4
-    - Push the generated code to the master branch.
+    - Push your code to the master branch.
     - Deploy your portfolio page.
 
 ## Technologies 🛠️
@@ -131,9 +131,9 @@ If you want to use the template to create your own portfolio, you can :
 
 * **Sienna Li** 
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/siennameow)
-- [Link to LinkedIn](https://www.linkedin.com/in/hexuanli/)
+- [Portfolio](#)
+- [Github](https://github.com/siennameow)
+- [LinkedIn](https://www.linkedin.com/in/hexuanli/)
 
 
 ## Credits 🙌
