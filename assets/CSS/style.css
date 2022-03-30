@@ -236,6 +236,19 @@ button:active {
     input[type=submit], .submit, .footer ul li  {
         background-color: var(--pink);
     }
+
+    .footer ul {
+        display:inline-block;
+        width: 50%;
+        justify-self: center;
+    }
+
+    /* .footer ul {
+        flex-direction: column;
+        margin-left: 25%;
+        margin-right: 25%;
+    } */
+
     
     #email_link, #linkedin_link, #github_link {
         display:block;
@@ -318,5 +331,14 @@ button:active {
     }
     .intro p {
         font-size:8px;
+    }
+
+    #email_link, #linkedin_link, #github_link {
+        display:block;
+    }
+    .footer ul {
+        display:inline-block;
+        width: 50%;
+        justify-self: center;
     }
 }
