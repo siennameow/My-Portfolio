@@ -273,7 +273,7 @@ button:active {
     }
 
     .intro {
-        bottom: -80px;
+        bottom: -100px;
     }
     .intro:hover {
         font-size:13px;
@@ -286,5 +286,12 @@ button:active {
 
     .home h1:hover {
         font-size: 22px;
+    }
+    .header nav {
+        font-size: 18px;
+    }
+
+    .content h2 {
+        font-size:16px;
     }
 }
