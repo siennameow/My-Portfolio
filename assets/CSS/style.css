@@ -240,16 +240,12 @@ button:active {
     .footer ul {
         display:inline-block;
         width: 50%;
-        justify-self: center;
+        justify-content: center;
+    }
+    .footer ul li {
+        font-size: 12px;
     }
 
-    /* .footer ul {
-        flex-direction: column;
-        margin-left: 25%;
-        margin-right: 25%;
-    } */
-
-    
     #email_link, #linkedin_link, #github_link {
         display:block;
     }
@@ -338,7 +334,10 @@ button:active {
     }
     .footer ul {
         display:inline-block;
-        width: 50%;
-        justify-self: center;
+        width: 80%;
+        justify-content: center;
+    }
+    .footer ul li {
+        font-size: 12px;
     }
 }
