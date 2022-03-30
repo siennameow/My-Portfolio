@@ -273,7 +273,7 @@ button:active {
     }
 
     .intro {
-        bottom: -100px;
+        bottom: -130px;
     }
     .intro:hover {
         font-size:13px;
@@ -292,6 +292,6 @@ button:active {
     }
 
     .content h2 {
-        font-size:16px;
+        font-size:14px;
     }
 }
