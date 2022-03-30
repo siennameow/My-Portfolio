@@ -225,7 +225,7 @@ button:active {
     display:block;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 760px) { 
     .header {
         background-color: rgba(166,0,255,0.8);
     }
@@ -273,7 +273,7 @@ button:active {
     }
 
     .intro {
-        bottom: -100px;
+        bottom: -125px;
     }
     .intro:hover {
         font-size:13px;
@@ -296,7 +296,7 @@ button:active {
     }
 }
 
-@media screen and (max-width: 360px) { 
+@media screen and (max-width: 400px) { 
 
     .header nav {
         font-size: 12px;
@@ -310,7 +310,7 @@ button:active {
     }
 
     .intro {
-        bottom: -130px;
+        bottom: -100px;
     }
     .intro p {
         font-size:8px;
