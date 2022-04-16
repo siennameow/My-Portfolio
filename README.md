@@ -6,7 +6,7 @@ I'm a current student at UC Berkeley Extension School. I am an avid Web Develepm
 
 ## Description 📝 
 
-Link to webpage: https://siennameow.github.io/My-Portpolio/
+Link to webpage: https://siennameow.github.io/portfolio-1.0/
 
 This portfolio website is built up with core skills including: flexbox, media queries, pseudo classes and CSS variables. It presentes with name, photo, projects, and contact information about me. With two color theme, it is designed to work with different screen sizes as you need. 
 
@@ -98,7 +98,7 @@ CSS
 ## Usage 💡
 
 
-The link of the webpage is: https://siennameow.github.io/My-Portpolio/
+The link of the webpage is: https://siennameow.github.io/portfolio-1.0/
 
 
 If you want to use the template to create your own portfolio, you can :
